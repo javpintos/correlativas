@@ -39,7 +39,7 @@ public class Main {
         repoMaterias.put("Mat 1",mat1);
         repoMaterias.put("Mat 2",mat2);
         repoMaterias.put("Algebra",algebra);
-
+        //String ruta = "C:\\Users\\Usuario\\Desktop\\correlativas\\src\\test\\java\\resources\\inscripcionesTest2.csv"
         //String ruta = "C:\\Users\\J.Pintos\\IdeaProjects\\correlativas\\src\\test\\java\\resources\\inscripcionesTest2.csv";
         String ruta = args[0];
         Path archivoInscripciones = Paths.get(ruta);
